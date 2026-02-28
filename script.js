@@ -1,13 +1,9 @@
-var ism = prompt("So'z kiriting");
+var oz = prompt("Biror so'z kiriting:");
+var ol = "";
 
-    var sport = ism.split(",");
 
-for (var i = 0; i < sport.length; i++) {
-    sport[i] = sport[i].trim();
+for (var i = oz.length - 1; i >= 0; i--) {
+    ol += oz[i];
 }
 
-    console.log( sport.length , ("ta so'z"));
-
-for (var i = 0; i < sport.length; i++) {
-    console.log(sport[i]);
-}
+alert("Chappasiga: " + ol);
